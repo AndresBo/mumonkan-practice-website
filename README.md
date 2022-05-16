@@ -1,2 +1,5 @@
 # mumonkan-practice-website
-practice website using the mumonkan book as a source 
+practice website.
+
+I do not own any of the source material. 
+

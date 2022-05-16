@@ -64,7 +64,7 @@ button {
     margin: 5px;
 }
 
-/* not a percentage of what is the width of the textarea: */
+/* a percentage of what is the width of the next textarea??  */
 .yourstory textarea {
     width: 98%; 
 }
