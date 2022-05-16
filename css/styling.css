@@ -1,5 +1,7 @@
 body {
     background-color: #f5f3f3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    margin: 0;
 }
 
 nav ol { 
@@ -26,4 +28,77 @@ nav ol li a {
 
 nav ol li a:hover {
     background-color: #111;
+}
+
+h1 {
+    text-align: center;
+    color: #4d4843;
+}
+
+.gateless {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.verse {
+    float: left;
+    margin-left: 10%;
+}
+
+.gateimg {
+    float: right;
+    width: 400px;
+    height: 400px;
+    margin-right: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.tellus {
+    max-width: 400px;
+    margin: 1%;
+    
+}
+
+button {
+    margin: 5px;
+}
+
+/* not a percentage of what is the width of the textarea: */
+.yourstory textarea {
+    width: 98%; 
+}
+
+.links ol li a:hover,
+.links ol li a:focus {
+   color: #111;
+}  
+
+.links ol li a {
+   text-decoration: none; 
+}
+.images figure {
+    float: left;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.images figure a {
+    text-decoration: none;
+}
+
+.images figure figcaption {
+    background-color: #222;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
+
+.images figure figcaption:hover {
+    background-color: #4d4843;
+}
+
+.images figure a img {
+    max-width: 440px ;
+    max-height: 300px;
 }
